@@ -17,21 +17,21 @@
 }
 .Card{
     background-color: whitesmoke;
-    width: 40%;
-    height: 40%;
+    width: max-content;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     padding: 2%;
-    box-shadow: 3px 3px;
+    box-shadow: 40px 30px 46px;
 }
 
 .Heading{
     display: flex;
     align-items: center;
-    height: 80px;
+    height: max-content;
 }
 
 .Button{
@@ -50,6 +50,7 @@
     background-color: #ffffff;
     display: inline-block;
     border: 1px solid rgba(22, 76, 167, 0.6);
+    margin-top: 20px;
 }
 .Button span{
     color: #164ca7;
@@ -102,6 +103,11 @@
 @media only screen and (max-width: 600px){
     .Card{
         height: max-content;
-        width:max-content;
+        width: max-content;
+        padding: 10%;
     }
+    .Button{
+        margin-top: 6vh;
+    }
+   
 }

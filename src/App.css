@@ -101,7 +101,7 @@
 
 @media only screen and (max-width: 600px){
     .Card{
-        height: 30%;
-        width: 80%;
+        height: max-content;
+        width:max-content;
     }
 }

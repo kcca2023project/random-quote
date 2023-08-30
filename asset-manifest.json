@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/random-quote/static/css/main.058233d3.css",
+    "main.js": "/random-quote/static/js/main.11205d46.js",
+    "static/media/lens.jpg": "/random-quote/static/media/lens.74d02d1f0265f5bd91d1.jpg",
+    "index.html": "/random-quote/index.html",
+    "main.058233d3.css.map": "/random-quote/static/css/main.058233d3.css.map",
+    "main.11205d46.js.map": "/random-quote/static/js/main.11205d46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.058233d3.css",
+    "static/js/main.11205d46.js"
+  ]
+}
